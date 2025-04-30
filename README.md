@@ -1,25 +1,22 @@
-# Actividad en clase
-1. Descarga el repositorio en GITHUB
-https://github.com/adolfoarroyotec/LibraryApi
-2. Make sure your table is created in your database
-3. In Database folder there is a schema folder where it is the table
-suggested, that should be created in your server.
-4. There is also an insert script in Database folder, you can use it for
-making tests.
-5. Review application.properties and for your connection string:
-spring.datasource.url =
-jdbc:oracle:thin:@//localhost:1522/TESTDB
-1522: is the port where you have installed the DB, usually is
-1521
-Localhost: Localhost should be your DB URL
-a. spring.datasource.username=Adolfo is the user name in the
-DB
-b. spring.datasource.password=password password of the user
-6. Run your API
-7. Download Postman
-8. Import the collections coming from IntegrationTesting in Postman
-9. Add a new endpoint for Patrions that are the persons that borrow books from the library.
+# Tasks
+Set Up Spring Boot Application:
+you will use your current library API's
+Add OpenAPI Dependency:
+Add the necessary dependency to include OpenAPI in your Spring Boot application (e.g., springdoc-openapi-ui).
+Update the pom.xml or build.gradle file accordingly.
+Annotate API Endpoints:
+Use appropriate annotations to document your API endpoints (e.g., @Operation, @ApiResponse, @Parameter).
+Ensure that each endpoint is well-documented with descriptions, parameter details, and response formats.
+Generate OpenAPI Documentation:
+Start your Spring Boot application and access the OpenAPI documentation (typically available at /v3/api-docs).
+Access the Swagger UI for interactive documentation (typically available at /swagger-ui.html).
+Customize API Documentation:
+Explore customization options available in OpenAPI (e.g., changing titles, descriptions, versioning).
+Implement at least one customization to enhance the documentation.
+Testing the API:
+Use the Swagger UI to test the API endpoints interactively.
+Document any testing scenarios and results.
 
 # Autora
-Fernanda Reyes Martinez
+Andrea Guadalupe Blanco Rubio
 
